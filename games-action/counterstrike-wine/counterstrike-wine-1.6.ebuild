@@ -9,7 +9,7 @@ inherit xdg desktop unpacker
 
 DESCRIPTION="Play the world's number 1 online action game. Engage in an incredibly realistic brand of terrorist warfare in this wildly popular team-based game. "
 HOMEPAGE="https://github.com/NSThy/deb"
-SRC_URI="https://github.com/NSThy/deb/releases/download/deb/CounterStrike-${PV}-wine.deb"
+SRC_URI="https://github.com/NSThy/deb/releases/download/linux/CounterStrike-${PV}-wine.deb"
 S="${WORKDIR}"
 RESTRICT="strip"
 

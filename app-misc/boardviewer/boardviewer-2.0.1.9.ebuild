@@ -7,7 +7,8 @@ inherit unpacker xdg desktop
 
 DESCRIPTION="Boardview is a type of files containing information about printed circuit boards, their components, used signals, test points and more. These files may have following extensions: .asc, .bdv, .brd, .bv, .cad, .cst, .gr, .f2b, .fz. and others. "
 HOMEPAGE="http://boardviewer.net/"
-SRC_URI="https://github.com/NSThy/deb/releases/download/deb/BoardViewer-${PV}-wine.deb"
+SRC_URI="https://github.com/NSThy/deb/releases/download/linux/BoardViewer-${PV}-wine.deb"
+
 
 LICENSE="BSD"
 SLOT="0"
