@@ -25,3 +25,8 @@ DEPEND="
 	dev-util/cmake
 "
 RDEPEND="${DEPEND}"
+
+src_prepare(){
+	sed -i 's/^Exec=uefitool$/Exec=uefitool %F/' UEFITool/uefitool.desktop
+	cmake_src_prepare
+}

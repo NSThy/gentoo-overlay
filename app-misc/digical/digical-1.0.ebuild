@@ -7,7 +7,7 @@ inherit unpacker xdg desktop
 
 DESCRIPTION="Circuit calculator"
 HOMEPAGE="https://www.chinafix.com/"
-SRC_URI="https://raw.githubusercontent.com/NSThy/deb/main/linux/Digical-${PV}-deb-wine.deb"
+SRC_URI="https://github.com/NSThy/deb/releases/download/deb/Digical-${PV}-wine.deb"
 
 
 LICENSE="BSD"

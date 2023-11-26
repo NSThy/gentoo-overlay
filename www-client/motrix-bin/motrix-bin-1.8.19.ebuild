@@ -19,10 +19,8 @@ KEYWORDS="amd64"
 IUSE=""
 
 DEPEND="
-	app-arch/rpm
 	net-libs/nodejs
 	sys-apps/yarn
-	app-arch/dpkg
 "
 RDEPEND="${DEPEND}"
 
