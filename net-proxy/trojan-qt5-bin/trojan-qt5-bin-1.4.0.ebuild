@@ -9,7 +9,7 @@ inherit xdg desktop unpacker
 
 DESCRIPTION="A cross-platform Socks5/Http/SS/SSR/Vmess/Trojan(go)/Snell GUI client. "
 HOMEPAGE="https://github.com/NSThy/deb"
-SRC_URI="https://github.com/NSThy/deb/releases/download/deb/Trojan-QT5-${PV}-deb-amd64.deb"
+SRC_URI="https://github.com/NSThy/deb/releases/download/linux/Trojan-QT5-${PV}-amd64.deb"
 S="${WORKDIR}"
 RESTRICT="strip"
 
