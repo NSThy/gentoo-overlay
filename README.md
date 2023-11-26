@@ -1,5 +1,5 @@
 # PREPARE
-git clone this repo to a local place
+git clone this repo to a local place  
 for example: 
 ```
 git clone https://github.com/NSThy/gentoo-overlay.git /tmp/nsthy-overlay
