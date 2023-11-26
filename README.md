@@ -1,5 +1,9 @@
-# PREPARE:
-git clone this repo to a local place,eg.~/Downloads
+# PREPARE
+git clone this repo to a local place
+for example: 
+```
+git clone https://github.com/NSThy/gentoo-overlay.git /tmp/nsthy-overlay
+```
 
 install a tool
 ```
@@ -33,12 +37,12 @@ process_directory() {
 process_directory "$(pwd)"' > /usr/bin/pkgdevsubmanifest && chmod 777 /usr/bin/pkgdevsubmanifest
 ```
 
-#INSTALL:
+# INSTALL
 ```
 su
 
 eselect repository create nsthy
-mv yourdownload/* /var/db/repos/nsthy/
+mv /tmp/nsthy-overlay/* /var/db/repos/nsthy/
 chown -R portage:portage /var/db/repos/nsthy
 cd /var/db/repos/nsthy
 pkgdevsubmanifest
