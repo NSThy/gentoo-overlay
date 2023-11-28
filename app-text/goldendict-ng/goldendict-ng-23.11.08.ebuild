@@ -37,7 +37,7 @@ RDEPEND="${DEPEND}"
 
 src_configure() {	
 	local mycmakeargs=(
-		--install-prefix=/usr/local/
+		--install-prefix=/usr/
      		-DCMAKE_BUILD_TYPE=Release
 	)
 	cmake_src_configure
